@@ -1,11 +1,11 @@
 **2 do List**
 1.  git hub pages?  not sure what they are but should probably know that too.  
-2.  find something to sync a directory structure with an ftp site, I only need to sync one way. Local to public.
+2.  
 3.  Make a real porfolio page; that's a good idea I just didn't care for codepen.  I might browse a bit of codepen to just see it's templates.  Heck, I could even add the portfolio page to github as practice doing the full creation thing.  I'm in no hurry for this though.
 4.  CSS layout stuff - this is last 'blah' thing I'm going to do for a bit.  
 
 
-### Day 1: Dec 9, 2016
+### Day 0: Dec 9, 2016
 
 **Today's Progress**: I set this up and am going to test to see if this sync's.  
 
@@ -43,4 +43,21 @@ Looked and quickly found a url converter which worked simply and easily.
 [Quote Generator](http://joenapoleon.byethost15.com/CodeCamp/randomQuoteMachine/index.html)
 With that done, think i'll up this to git and tell codecamp it's done too.  Than do one more CSS practice.  [CSS layout1](http://joenapoleon.byethost15.com/practiceStuff/cssLayout/01/index.html)
 
+### Day 2: Dec 11, 2016
+** CSS pages half done **  all plain CSS layout practices done.  Alot more comfortable laying stuff out although I didn't really have any issues so wondering if I learned anything.  Next half using bootstrap to lay it out I've never done so it'll be interesting.  
+** Regular Expressions ** I still want or need a lot more practice with these.  I'm seeing so many possible uses just slip thru my fingers.  The one I did use was making an array of Chars from a string, one short line instead of a loop.  They're just so powerful that I need to know them more.  
+Side note: the grid with bootstrap was a bit disappointing but I think I've got a way that will work good enough.  The layout work was worth the time invested even though it's a boring topic.  Still have the two complex patterns but not expecting anything difficult to have the practices done.  
+** algorithms ** freecodecamp's algorithms for beginners are flying by.  There's might be one that eats up time but so far, 6 hours and most are done.  50hrs estimated seems a bit generous.  
+### Day 3: Dec 12, 2016
+** from 2do list ** fillezilla should have sync'd but it's not unless I upload the whole thing and just let it update only newer stuff.  Nothing fully automated :(  
+** Goals ** also instead of doing this at the end of the day, going to do a log at the beginning.  I'm going to do my goals of the day anyways so if I just do it here, this costs zero extra time.  Thinking of time, balanced binary tree algorithm is still something I want to do from scratch.  I hope it shows up in intermediate algorithms.  
+** Todays Goals ** blah... 1) do the other two layouts which are going to be boring but then I can be done with it.  2) Not sure if I want to dump more time into the word counter, but it would yeild more reg expression practice.  3) check all the different reg ex functions, I've only been using one and feel like reg ex is too powerful not to be really good friends with it  4)freecodecamp is last because it's excercises are actually enjoyable.  
+** Monday Funday ** I need a fun day and since everyone normally hates Monday, I'll make it my friend.  Anything goes (as long as it's one of the 4 previous things listed, don't want to get too carried away).  OR I can just get the last two grid layouts done now. 
+** Finished CSS layout sheets **
+** Finished Basic Algorithms at freecodecamp ** 
+Hoping the next bit of 'samples' will give me some use of reg exp rather than do solo freelance stuff.  I can think of one thing but that's a pretty big project I think.  
 
+### Day 4: Dec 13, 2016 
+** Finished something small **
+** Starting Weather API **  call that's requiring me to have it being served by HTTPS.  
+I guess it's time to figure out secure HTTP with Node.js.  This is hitting me like a curveball but not expecting it to be any more painful than bootstrap giving me 'denied access' from the link from the CDN.  
