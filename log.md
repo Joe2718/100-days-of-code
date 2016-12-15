@@ -61,3 +61,12 @@ Hoping the next bit of 'samples' will give me some use of reg exp rather than do
 ** Finished something small **
 ** Starting Weather API **  call that's requiring me to have it being served by HTTPS.  
 I guess it's time to figure out secure HTTP with Node.js.  This is hitting me like a curveball but not expecting it to be any more painful than bootstrap giving me 'denied access' from the link from the CDN.  
+** HTTPS on node**  it works enough for chrome to allow navigator.geolocation with just a little complaining.  I can always update that later but I can now start the weather page thing.  https://github.com/Daplie/letsencrypt-express  was by far the easiest way to get the server doing ssl.  It was mindless! or nearly since I had to make just a couple changes.  
+** Weather Part 1 ** So getting a location requires a secure connection, and getting the weather requires a non-secure connection.  Need two pages and pass lat/lon in the GET request.  I can do that using different ports I think.  
+
+### Day 5: Dec 14, 2016 
+** User Interface ** is a monster that eats time.  I think I am going to end up using the weather page as one of my 8 in the portfolio.  What's left to do for a 'finished' product?  
+1) can't just keep dumping values into spots without clearing them.  Need to do housecleaning.
+2) have a 'change location tab' that's hideable from bottom maybe and have it default to lookup some place nice.  
+3) I guess I could make the background into a slide show but I just dont want to look up differnet pictures and then have to worry about the links changing.  
+4) I guess I do need to spend time doing this final phase, I just have to think about it as debugging.    
