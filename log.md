@@ -75,3 +75,7 @@ I guess it's time to figure out secure HTTP with Node.js.  This is hitting me li
 ** Weather Done ** 
 All the aspects that work good are NOT bootstrap.  Like the bottom ZIP field, it's stuck to the bottom of the window unless the window pushes it into the stuff above it, then it becomes relative to that (and undoes it if getting bigger).  I used regular expressions in a couple places which I'm happy about.  This is good enough.  Banging my head against the wall with bootcrap for 1.5 days really took it out of me.  I need to mess with some algorithm to put some fun back into this stuff.  
 I'll try to mix in some git hub practice too.  
+** Twitch Done **  I skipped the wiki page, I just didn't care about it and at first error, I moved on.  
+I didn't care about this twitch either but I couldn't skip two things in a row.  hahaha, since I didn't care and just wanted a quick layout, I used bootcrap.   Still hate it though and I doubt I saved any time.  
+Now I'm up to intermediate algorithms.  
+** Shiffman ** I checked git hub for shiffman's pixel sorting and didn't find it.  I wanted to do his search in two different ways and see which was faster.  .sort ( some function )  would probably beat me building a balanced binary tree.  There's some name for those but I just wanted to do it just to do it.  Try to do it only from memory of how it worked.  It was the whole 'turn' the thing that was interesting.  
