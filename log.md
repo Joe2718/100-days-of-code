@@ -70,3 +70,8 @@ I guess it's time to figure out secure HTTP with Node.js.  This is hitting me li
 2) have a 'change location tab' that's hideable from bottom maybe and have it default to lookup some place nice.  
 3) I guess I could make the background into a slide show but I just dont want to look up differnet pictures and then have to worry about the links changing.  
 4) I guess I do need to spend time doing this final phase, I just have to think about it as debugging.    
+### Day 6: Dec 15, 2016
+** Boot CRAP **  90 percent of last two days is just dealing with bootstrap crap.  It's STILL not doing a simple little text input box right, still not keeping the a col that's pushed and pulled into the center, in the center.  DONE WITH BOOT CRAP!  Normal CSS was so much easier and consistent.  LAST time with bootcrap.  Complete waste of my time.  
+** Weather Done ** 
+All the aspects that work good are NOT bootstrap.  Like the bottom ZIP field, it's stuck to the bottom of the window unless the window pushes it into the stuff above it, then it becomes relative to that (and undoes it if getting bigger).  I used regular expressions in a couple places which I'm happy about.  This is good enough.  Banging my head against the wall with bootcrap for 1.5 days really took it out of me.  I need to mess with some algorithm to put some fun back into this stuff.  
+I'll try to mix in some git hub practice too.  
