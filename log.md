@@ -79,3 +79,40 @@ I'll try to mix in some git hub practice too.
 I didn't care about this twitch either but I couldn't skip two things in a row.  hahaha, since I didn't care and just wanted a quick layout, I used bootcrap.   Still hate it though and I doubt I saved any time.  
 Now I'm up to intermediate algorithms.  
 ** Shiffman ** I checked git hub for shiffman's pixel sorting and didn't find it.  I wanted to do his search in two different ways and see which was faster.  .sort ( some function )  would probably beat me building a balanced binary tree.  There's some name for those but I just wanted to do it just to do it.  Try to do it only from memory of how it worked.  It was the whole 'turn' the thing that was interesting.  
+** Intermediate Algorithms ** 5 of 21 done so far, that 50 hours to do this seems very generous.  I'm watching abe lincoln vampire hunter and did one and it's only half over.  It's so difficult to tell if the girl is hot when she's got vampire crap on.  That's what IMDB is for. Erin Wasson has a hot body, definitely have to do another algorithm right now.   Pig Latin.   I don't know that at all. OH, consonant(s) and yep, she's hot.  I'll just get this done first in an easy way and mess with a regex way later if I want.  
+I got 6 done, so 15 more to go in two days.  Very doable. Just did one in 2 minutes or so, maybe less.  I'm tired and just wanted something to think about during sleep but it got done too fast.  These are getting too easy.  OK, I'm down to just 11 left, so nearly half done in one night. 
+### Day 7: Dec 15, 2016
+** People of the world you may now refer to me as King! ** 
+LOL, regex is starting to make sense!  Fantastic feeling when it started making sense.  
+/([a-z]+|[A-Z][a-z]+)(|[_-])/ turns out I got rid of second group and let it group itself and did better so I shouldn't be King yet.  Still a great feeling when it finally starts to click.   It's 9pm and it's the only one I've done today but I wasted a ton of time doing it the wrong way which is why I just said, "If I'm going to dump time into figuring this thing out old school, why not do REGEX and then I won't regret dumping the time."  
+REGEX is too strong not to know fully. 
+Night is still young, 9 left to do in Intermediate (I must have done some earlier but were simple or something).  So many don't even make you think.  
+### Day 9: Dec 19, 2016 
+** Finished Intermediate yesterday.  I think I used regex to mess with the last couple puzzles, and now first one in Advanced is also a Regex one.  I got tired of messing in codepens after I seen that I would have caught the information that was being tested were strings but getting interpretted as all kinds of different things, arrays, double args... i need to flatten em.  
+Anyways, I would have caught it there instead of trying to troulbe shoot my regex pattern and I'm really doubting regex's ability to do an "if, then" thing.  I didn't look at it too much but don't think it works in js.  
+So, the puzzle has a bunch of different numbers that i'm not going to manually put in, I shouldn't and I won't.  I will copy and paste it into a file (rather than try to scrape it) and then save the argument in a json file. I have it just as an array of json objects right now and am about to save it as a file.  
+This is a good puzzle because it uses both of the challenges from the intermediate algorithms that I liked.
+Plan: make a json file with 'number':'teststring'  
+in original challenge, load that and test all numbers all time.  
+note: keep eyes open for a real flatten function, although I think in practice it'd be easier to fix the argument at the origin rather than try to handle crazy requests.  
+I find myself using regex for little stuff, var end = line.match(/"\)/);  I needed to find 
+indexOf ") and I guess I could have just did it that way, 
+var end = line.match(/"\)/);		
+var test2 = line.indexOf('")');
+console.log("reg = "+ end.index +"index = "+ test2);
+Same thing exactly, how ever the regex failed when using it as line.indexOf(/"\)/);
+match has an index prop so who cares, solution = solution.
+And this is why stuff takes a while!  All these little side quests.  I've burnt up hours and still haven't even restarted looking at the original puzzle.  
+ok, save file, load file and parse, than do puzzle.  Heck, for this one I could just add one more bit and have it have it's correct value and give me a score, filter out all but the ones I need to see.  nah on the filter, but correct value is worth doing.
+closing this log, want to do rather than type about doing.
+NOTE: 1 minute to add the boolean to the json object. 
+save and load file now. 
+// feel like i'm chasing ghosts here.  This should be simple look up / use.  nothing working 
+   but now I HAVE to figure this out. 
+### Day 10: Dec 20, 2016 
+*** save/load/test and filter all done ***  Ofcourse it's now 1am can't sleep so going to actually start on the advanced algorithm challenge 1.  Wait, I did start and did one regex filter just to make my check button work.. and it does. Yes, i'm very happy that it does.  Getting the darn save file to work was frustrating.  Interesting, ** more frustration = more happy **  when you get it.
+### Day 11: Dec 21, 2016 starts in 10 mins so close enough.  There is a clear NEED to spend more time with puppy training immediately so it will impact code but Living things rank higher before imaginary bits.  Anyways, I got some Sym challenge done but with way too many lines of code and made a recursive loops to do it. It wasn't good looking at all and even if I clean it up; it still wasn't the best way by any means.  The hint said to look up something.. lol, i just watched a bunch of dog training videos and didn't do the code yet.  REDUCE!  my first reaction was to try to use filter's function call as a type of recursive loop thing, but reduce has the ability for a function call too.  It would be actually pretty darn cool to use, nevermind, filter is an array too also.  Array of arrays, I'm still not sure how reduce works.  I'm pretty sure I can do it with filter.  
+Day 11: Dec 21, 2016  
+I had several issues with this last challenge.  Copying the array of args into an array ends up with an object that's neither array nor not array.  That seemed impossible, add ! and it still passes.  
+When I finally decided to just find a video that had a working model of .reduce he was returning {} objects.  With my other issue of array's not staying arrays, this really through me for a loop and took me a long time to eliminate everything except the reduce.  It's odd because I got a small clue on how it works, but want more practice; I would not have guessed what .reduce instructions labelel  "index" controlled what type of object you got back in the interation/function.  I got it working with only a bare bones knowledge of .reduce.  I need more practice with that.  
+Not sure what I want to do next, think I might do another challenge and try to use .reduce when I get the chance.  I'd like to use a .map too.  Not a clue on how to use it, just ran across it and it looked superuseful. 
