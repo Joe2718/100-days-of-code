@@ -130,3 +130,7 @@ Calculator has all it's buttons and layed out, has shadow but still doens't look
 ### day 20: December 30th  I spend more time doing tweets than here.  I guess it's because people read those.  More 'on stage' like now, I tweeted I'm going to do tic tac toe.  I still haven't started.   I have to play with dog a little more and upload her videos.  10pm and just about to start my hour.  
 ### day 22: January 1st  Tic Tac Toe is pretty much done but I'm not liking my code.  Sitting on a fence whether to trash it .. yeah, going to trash it and redo it. Yeah, I can make a ton leaner.
 Had flaw in game logic in original and really want to make this code look very readable.  Leaner is going out the window for easy to understand.  Totally going to keep my over complicated square object. 
+### Day 23: January 2nd Tic Tac Toe is still not finished.  I need to have the computer be able to create a fork when it can, check for win (which is simple), make splash screen for X or O selection. 
+This puppy is a HUGE distraction and is now my shadow.  Hard to schedule time when she's still at this critical part of new house and training.  If I don't spend the time now, it'll cost me much more time/energy later in trying to break the bad habits.  
+
+
