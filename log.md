@@ -132,5 +132,8 @@ Calculator has all it's buttons and layed out, has shadow but still doens't look
 Had flaw in game logic in original and really want to make this code look very readable.  Leaner is going out the window for easy to understand.  Totally going to keep my over complicated square object. 
 ### Day 23: January 2nd Tic Tac Toe is still not finished.  I need to have the computer be able to create a fork when it can, check for win (which is simple), make splash screen for X or O selection. 
 This puppy is a HUGE distraction and is now my shadow.  Hard to schedule time when she's still at this critical part of new house and training.  If I don't spend the time now, it'll cost me much more time/energy later in trying to break the bad habits.  
+### Day 24: Jan 4th 5:30am I can't seem to find the missing forking maneuver so just going to make checkWin function and splash with token selection.  6:am checkWin done.  
+Need to draw a line through the winning row but I'm not sure if I'll bother with it. It meets all required things. I think Simon is next.  Just trying to get everything done first, still have to go back and do the wiki page I skipped too.  Glad I skipped it because I finally have a desire to figure out the Ajax style.   
+
 
 
