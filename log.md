@@ -140,6 +140,14 @@ Need to draw a line through the winning row but I'm not sure if I'll bother with
 ok, now Git push isn't working for the new Simon repo.  master fetch first?  I'm training the dog to fetch and Git is training me.   Git pull and now Git push and everything good.  
 I'll try to do sound first with mp3 and if that fails, wav.   Nothing left after wav.  Mp3 sounds working good.
 ### Day 28: Simon Done.  Might add some scalability but that's about it, maybe a help popout or something but nothing serious.  I should add both this way I could add it to my portfolio.  The popping out thing would be a nice touch I think.  I'll think about the portfolio after I get the page I missed done.  I think it's wikipedia something. 
+NOPE, can't leave Simon just yet, it's got a bug somewhere and I thought I had fixed it.  It started doing some type of double thing with a keypress and key's shouldn't be active when computer is doing it's thing.  I'll have to take a look at it again.  I might have got it, just need to test some.
+### Day 29: Wiki Page done.  It wasn't that bad at all; 3 or 4 tiny little puzzles to figure out.  Now to decide which things I want to be on my portfolio page and make those impressive.  I might do Simon first because it's really not too bad.  
+1) Simon add instructions, maybe options to be able to program whatever sounds you want to the key's.  
+2) add fireworks to tomato clock... nah, not going to use that clock for anything.
+3) just see if I can layout picture for that tile game, umm, ok, find out the name of the tile 
+	and do the layout for it.  Rummikub , just the layout for it.  
+3) 
+
 
 
 
