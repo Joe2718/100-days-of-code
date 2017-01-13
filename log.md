@@ -146,8 +146,17 @@ NOPE, can't leave Simon just yet, it's got a bug somewhere and I thought I had f
 2) add fireworks to tomato clock... nah, not going to use that clock for anything.
 3) just see if I can layout picture for that tile game, umm, ok, find out the name of the tile 
 	and do the layout for it.  Rummikub , just the layout for it.  
-3) 
-
+### Day 31: Added some tabs for help and options to Simon.  I think I'm going to get really nutty with the options.  Made a json file that has names and file path for all the sounds on an acoustic grand piano, I want to have an accorian style options tab that allow you to choose a bunch of different sounds.  Piano, I think the other sound font was drums, maybe do some animals and still have to figure out the original tone generation thing.  I'm wondering what the limit on div's inside a div is.
+### Day 32: Accordian in jquery UI just didn't seem to be happy with something so I'm going to use a homemade version, might not need it but I think I will.  I got all my keys turned sideways and it is starting to look and act like I want it to but taking WAY longer to get it done.  Dog interuptions are a factor, lack of sleep is larger one.  Spent two hours with half my mind at night and failed, looked at it in the morning and seen it right off the bat.  I did get piano key type keys in the selection,just haven't finished the whole selection proccess.
+### Day 33 Things left to do:
+OPTIONS needs a close trigger other than clicking the tab again.  Make an X, position it in upper right corner, maybe a red background 	add .menu class to it.  
+Add TONES  .. I'm really not sure if I'm going to continue with this.  I've overkilled Simon plenty enough already.  
+I still feel like I might need to scale up the center part a bit.  
+If I add Tones than I'll have to make the sound options accordion style or fill screen with it.  
+I should add them AND make options accoridion just for the practice.
+1) add X 2) scale center a bit 3) tones 4) accordian options #soundURL that has all the keys.
+5) might be worth changing all sounds to Objects (and one of the object properties is the sound object), 
+	other attribs are full path, color, type (tone generation or mp3), index (#) and a name A01, A in first scale, HTML element (pointer to element in options panel).  If I just ran of that many attribs from the top of my head, I should have made it them objects right off.
 
 
 
