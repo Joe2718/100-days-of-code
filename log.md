@@ -157,6 +157,7 @@ I should add them AND make options accoridion just for the practice.
 1) add X 2) scale center a bit 3) tones 4) accordian options #soundURL that has all the keys.
 5) might be worth changing all sounds to Objects (and one of the object properties is the sound object), 
 	other attribs are full path, color, type (tone generation or mp3), index (#) and a name A01, A in first scale, HTML element (pointer to element in options panel).  If I just ran of that many attribs from the top of my head, I should have made it them objects right off.
-
+### Day 34 Added X - done, scaled Center - done, 3 tones Done, 4 - need accordian and adding a 4th accoridan level 'presets'.  
+I'm still considering restructering the whole thing.  
 
 
