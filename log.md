@@ -158,6 +158,15 @@ I should add them AND make options accoridion just for the practice.
 5) might be worth changing all sounds to Objects (and one of the object properties is the sound object), 
 	other attribs are full path, color, type (tone generation or mp3), index (#) and a name A01, A in first scale, HTML element (pointer to element in options panel).  If I just ran of that many attribs from the top of my head, I should have made it them objects right off.
 ### Day 34 Added X - done, scaled Center - done, 3 tones Done, 4 - need accordian and adding a 4th accoridan level 'presets'.  
-I'm still considering restructering the whole thing.  
+I'm still considering restructering the whole thing.  Yeah, it would be cleaner to put all sounds into simon sounds class.  I gotta still find an accordian sample.  I think it just scroll's up or down with overflow hidden.  It shouldn't be that bad, just have numbered tabs, go thru either forward or backward moving tabs up or down with div's using position: relative for the h3, and position absolute for the div's.  Need sleep now first though.  
+### Day 36: Jan 15th Accordion was actually simpler than I thought.  Since most of the movement was automatic I only needed to show or hide one section.  So again, my code is bloated with a ton of unneccessary stuff.  I still need to do some presets. 
+### Day 37: Presets nearly done, only one left to do is a 'user selected' and the relative one.  I'm going to restructure the sounds first, they aren't layed out by pitch and I'm going to have to redo everything.
+### Day 38: Jan 17th Sounds sorted pretty good, good enough for a non musical app.  Redid presets as well.
+1) figure out how to store data local, both session and long term.  
+localStorage.setItem("userTones", []);  localStorage.getItem("userTones");
+ok, localStorage was easier than expected, not sure about it's playback.  
+One last thing is the scalable close encounter thing.  
+Taking break from Simon and going back to same ole bang my head again the wall thing.  
+0.50  is not the same as 0.5.  and failing the challenge.
 
-
+Day 41:  Jan 20th  It annoyed me a lot that the guy at git hub just dismissed my legit bug without even checking.  Still does actually.  Come to think about it, I really haven't learned much from FCC's examples.  Most seemed just rehashing old crap and 'getting it done and over with'.  Who knows, maybe the server side  stuff will be more interesting.  I still have to redo Simon because that grew from simple to more complex.  It's the complexity that I wanted, but I need to have the structure setup that it's not complex.  It should be simpler than it is and that's what I have to figure out how to sketch.  I could go paper but I want more flexibility.   Yep, that's my goal tonight, just make the layout with objects.  
